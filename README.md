@@ -1,20 +1,38 @@
-# PROG71990-25FW - Section1 Group5 - Group Assignment
+# Task Manager CLI
 
-Division of Labour
+A command-line task manager built in C that allows users to create, manage, and track tasks directly from the terminal.
 
-AUSTIN FOCUS:
-- Adding a new task
-- Deleting an existing task
-- Updating an existing task
+This project was originally developed as part of a team assignment focused on modular program design and collaborative development.
 
-MAX FOCUS:
+## Features
+
+- Add new tasks
+- Delete existing tasks
+- Update tasks
+- Search for tasks
+- Mark tasks as complete
+- Save tasks to a file
+- Load tasks from disk
+- Organize tasks by categories
+
+## My Contributions
+
+I was responsible for the **task display system**, including:
+
 - Displaying a single task
-- Displaying range for task
-- Displaying all tasks
+- Displaying a range of tasks
+- Displaying all tasks in the task list
 
-MARIO FOCUS:
-- Searching for a task
-- Saving accumulated data to file
-- Loading accumulated data from disk
-- Marking tasks as complete (Addtional Feature)
-- Seperation of tasks into categories (Addtional feature)
+These features required handling task data structures and formatting output clearly for the user.
+
+## Technologies
+
+- C
+- File I/O
+- Modular program design
+- Command-line interface
+
+## Example Usage
+
+Display all tasks:
+
